@@ -18,6 +18,6 @@
     <include file="$(find lio_sam)/launch/include/module_rviz.launch" />
 
     <!-- Run Bagfiles-->
-    <inlude file="$(find lio_sam)/launch/include/bagfile.launch"/>
+    <!-- <inlude file="$(find lio_sam)/launch/include/bagfile.launch"/> -->
 
 </launch>
