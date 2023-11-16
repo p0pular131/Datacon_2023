@@ -13,7 +13,7 @@ bag_files = [
 cnt = 0
 
 for bag_file in bag_files:
-    play_command = f'rosbag play -r 3 {bag_file}'
+    play_command = f'rosbag play {bag_file}'
     
     subprocess.Popen(play_command, shell=True)
     

@@ -20,4 +20,9 @@
     <!-- Run Bagfiles-->
     <!-- <inlude file="$(find lio_sam)/launch/include/bagfile.launch"/> -->
 
+    <!-- Run Save -->
+    <node name="save_coords" pkg="lio_sam" type="save_result.py" respawn="true" output="screen">
+    </node>
+  
+
 </launch>

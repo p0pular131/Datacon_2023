@@ -40,7 +40,7 @@ class make_result :
 
             # 데이터 저장
             # data_list.append([data.header.stamp.secs, self.E, self.N])
-            print(data.header.stamp.secs)
+            print("%f 저장 완료"%data.header.stamp.secs)
             csv_writer.writerow([data.header.stamp.secs, self.E, self.N])
 
             # 변수값 갱신
